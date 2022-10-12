@@ -31,7 +31,7 @@ var itemName = document.querySelector("input");
         wasteType = "Organic Waste";
     }
     n = hazardousWaste.includes(wasteItem);
-    //if(n){
+    if(n){
         wasteType = "Hazardous Waste";
     }
     n = recyclableWaste.includes(wasteItem);
@@ -42,6 +42,6 @@ var itemName = document.querySelector("input");
 
     //var tag = document.querySelector("div")[1];
     var tag=document.getElementById("result");
-    //tag.textContent = wasteType;
+    tag.textContent = wasteType;
 
  });
