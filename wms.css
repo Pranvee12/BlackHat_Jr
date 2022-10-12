@@ -26,7 +26,7 @@ body{
   
 
 .search-box {
-  
+
     top: 65%;
     left: 65%;
     transform: translate(-50%, -50%);
@@ -35,6 +35,7 @@ body{
     border-radius: 40px;
     padding: 10px;
    }
+
    
    .search-box:hover > .search-txt {
     width: 400px;
